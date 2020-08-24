@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../notes.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.typing::after{
+    content: '';
+    border-left: 2px solid black; 
+    animation: type 0.5s ease-in infinite;
+}
+@keyframes type{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.box{
+    margin-top: 33px;
+}
+.typing{
+    height: 75px;
+}
